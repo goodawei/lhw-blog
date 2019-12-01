@@ -1,6 +1,6 @@
 ---
 title: awk
-date: 2017-07-16 21:58:51
+date: 2019-11-29 21:58:51
 tags: Linux
 ---
 
@@ -30,6 +30,8 @@ grep li 2017.log
 
 //不同的是 ‘/’ is called a regular expression,
 ```
+
+<!-- more -->
 
 ### 切割 slice
 

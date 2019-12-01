@@ -7,7 +7,7 @@ type: "about"
 
 ![share][1]
 
-[1]: http://o8979n2hu.bkt.clouddn.com/about.jpg
+[1]: http://cdn.nicexiangcun.com/about.jpg
 
 :cn:
 

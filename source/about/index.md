@@ -31,7 +31,7 @@ in short : Make progress everyday,Your hard work will pay off sooner or later so
 
 >Php : 熟悉常用设计模式，掌握php常用框架（Laravel,Yii2,CodeIgniter）。
 
->JS :  了解Js的作用域链和原型链等设计思想。 熟练掌握Jquery,了解Vue.js。 
+>JS :  了解Js的作用域链和原型链等设计思想。 熟练掌握Jquery,Vue.js,AngularJS。 
     
 >WebServer: 熟悉Apache、Nginx。
 
@@ -45,7 +45,7 @@ in short : Make progress everyday,Your hard work will pay off sooner or later so
 
 >Linux: 熟悉常用系统操作命令，了解常用文本处理工具Sed,Awk 。
 
->Python: 掌握Python基础使用。
+>掌握 Python,Java,Go的使用。
 
 ----------
 
@@ -60,7 +60,7 @@ in short : Make progress everyday,Your hard work will pay off sooner or later so
 
 ### 个人信息
 
- - 李宏伟/男/1986 
+ - 李宏伟
  - 本科/南昌航空大学/计算机及应用 
  - 工作年限：5年
  - 微博：[@Lihongwei](http://weibo.com/goodawei1986) （``` 李宏伟 ```）

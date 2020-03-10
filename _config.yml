@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 李宏伟'blog
-subtitle: 求知若饥，虚心若愚
+title: Henry
+subtitle: 面朝大海，春暖花开
 description: 
 author: 李宏伟
 language: zh-Hans
@@ -89,7 +89,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: icarus
+theme: ayer
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

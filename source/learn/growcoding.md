@@ -3,3 +3,11 @@
 编程思想。
 
 1. 哨兵机制，把边的。
+
+2. AOP 横向的抽象
+
+3. 推、拉 模式场景运用。
+
+4. interface: protocol , unrelated object to communicate with each other.
+
+5. 复杂的逻辑按计划算好，然后异步处理

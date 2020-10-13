@@ -6,7 +6,7 @@ tags:
 
 ![红包设计场景][1]
 
-[1]: http://o8979n2hu.bkt.clouddn.com/%E5%BE%AE%E4%BF%A1%E7%BA%A2%E5%8C%85.JPG
+[1]: http://cdn.nicexiangcun.com/%E5%BE%AE%E4%BF%A1%E7%BA%A2%E5%8C%85.JPG
 
 cmd的一个使用技巧
 

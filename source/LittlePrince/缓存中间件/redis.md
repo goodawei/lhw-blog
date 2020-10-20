@@ -80,3 +80,26 @@
 	1. 基于滑动窗口的限流
 	2. 基于容量和匀速速率的限流 （漏洞）	
 	3. 令牌桶
+
+
+九. redis 主从配置
+	1. 基本原理： master node 配置 slave node, slave node 配置 master node的host & ip & password, 当slave node 第一次启动链接master node的时候会发送一个psync 命令，master接收到请求后，会通过bgsave 生成rdb文件，而新的客户端写命令会保存到缓存，slave node 接收RDB文件会先落盘，在加载到内存。master 在将内存缓存的命令同步到slave， 后续master会通过异步方式将写命令同步给slave.
+
+	2. 解决master 的单点问题， sentry 进程。 每个节点都会启动 sentry进程，注意主从的sentry的配置文件配置不一样,当master异常退出后，其中一个slave node 会充当master，具有写权限。
+
+	3. cluster 多写多读。
+
+十. 数据过期淘汰策略
+
+	1. 惰性删除， 访问key的时候看其是否过期， 对cpu友好，对内存比较浪费。
+	2. 定期删除， redis 维护一个过期字典，使用时间事件轮询，轮询过的键值对进行释放，轮询时间可以配置，
+	3. 主动删除， 原因是物理内存是有大小限制的，当超过内存预警（配置文件里配置的内存阀值），发生写操作时会触发，淘汰策略包含，lru, random 等。
+
+十一. 持久化
+	1. RDB
+	2. AOF
+	3. 混合
+
+
+
+
